@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    width: 40%;
+    background-color: rgb(219, 240, 32);
+    margin: 1%;
+    text-align: center;
+}
+.list:hover{
+    background-color: orange;
+    transition: 1.5s;
+}
